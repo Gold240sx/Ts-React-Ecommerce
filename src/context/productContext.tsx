@@ -30,7 +30,7 @@ export const ProductContext = createContext<Products>({
 
 const ProductsContextProvider = ({ children }: { children: ReactNode }) => {
 	const initialProducts: Products = { Bikes: [SHOP_DATA.Bikes], Clothes: [SHOP_DATA.Clothes], Accessories: [SHOP_DATA.Accessories] }
-	const [products] = useState<Products>(initialProducts)
+	const [products, _] = useState<Products>(initialProducts)
 
 	return <ProductContext.Provider value={products}>{children}</ProductContext.Provider>
 }

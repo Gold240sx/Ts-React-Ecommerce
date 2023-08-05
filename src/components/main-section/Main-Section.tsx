@@ -4,7 +4,7 @@ import "./Main-Section.styles.scss"
 
 const MainSection = ({ history }: any) => {
 	return (
-		<div className="main-section-container ">
+		<div className="mt-16 mb-12 main-section-container">
 			<div className="lg:flex main-section-middle">
 				<div className=" ms-m-image p-[15px] mb-8">
 					<img src={Products.Bikes[0].images[0]} className="min-w-[330px]" />

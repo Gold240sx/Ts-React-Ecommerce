@@ -119,6 +119,30 @@ img {
     }
 
 @layer utilities {
+    .animate-spin {
+    	animation: spin 1.5s linear infinite;
+    }
+
+    .animate-ping {
+      animation: ping 2s cubic-bezier(0, 0, 0, 1) infinite;
+    }
+
+    @keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+    @keyframes ping {
+  70%, 100% {
+    transform: scale(1.05);
+    opacity: 100;
+  }
+}
+
     @media(min-width: 1024px) {
         form {
             width: 60%;

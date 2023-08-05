@@ -4,6 +4,12 @@ import JekyllCloseUp from "../assets/Images/Products/Cannondale/Jekyll/close-up.
 import AtalayaSide from "../assets/Images/Products/J-Guillem/Atalaya/side.jpg"
 import AtalayaFrame from "../assets/Images/Products/J-Guillem/Atalaya/frame.jpg"
 import AtalayaCloseUp from "../assets/Images/Products/J-Guillem/Atalaya/close-up.jpg"
+import JerseyBack from "../assets/Images/Products/Clothes/jersey-back.jpg"
+import JerseyFront from "../assets/Images/Products/Clothes/jersey-front.jpg"
+import JerseyQuarter from "../assets/Images/Products/Clothes/jersey-quarter.jpg"
+import ShortsButt from "../assets/Images/Products/Clothes/Shorts-Butt.jpg"
+import ShortsFront from "../assets/Images/Products/Clothes/Shorts-Front.jpg"
+import ShortsFly from "../assets/Images/Products/Clothes/Shorts-Fly.jpg"
 
 export const Products = {
 	Bikes: [
@@ -52,26 +58,33 @@ export const Products = {
 	],
 	Clothes: [
 		{
-			id: 1,
-			name: "Cycling Jersey",
-			manufacturer: "Cycling Co.",
-			images: ["jersey1.jpg", "jersey2.jpg"],
-			price: 49.99,
+			id: 3,
+			name: "Fox Racing Flexair Lunar Jersey Black",
+			manufacturer: "Fox Racing",
+			images: [JerseyFront, JerseyQuarter, JerseyBack],
+			price: 64.99,
 			category: "Tops",
 			tagline: "A moisture-wicking jersey for comfortable rides.",
-			description: "A moisture-wicking jersey made from high-quality materials.",
+			description: `When you're bashing through that gnarly overgrown trail, the Flexair Jersey is right there with you 
+                bringing some legendary Fox energy to your trail exploration. It's got that sought-after Flexair 
+                breathability to keep you cool, TruDri® sweat-wicking ability, and construction details that'll ensure 
+                total mobility to dodge on a dime. Should you mistime your dodge, the abrasion-resistant sleeves and
+                 panels on the shoulder will guard your limbs against those errant trail flings.`,
 			colorOptions: ["Yellow", "Blue", "Green"],
-			sizeOptions: ["S", "M", "L", "XL"],
+			sizeOptions: ["M", "XL"],
 		},
 		{
-			id: 2,
-			name: "Cycling Shorts",
-			manufacturer: "Cycling Co.",
-			images: ["shorts1.jpg", "shorts2.jpg"],
-			price: 39.99,
+			id: 4,
+			name: "MEN'S UNION 2.0 SHORT",
+			manufacturer: "Chrome Industries",
+			images: [ShortsFront, ShortsFly, ShortsButt],
+			price: 93.75,
 			category: "Bottoms",
 			tagline: "Padded shorts for reduced friction and increased comfort.",
-			description: "Padded shorts designed for maximum comfort during cycling.",
+			description: `nspired by military shorts and mountain biking baggies, we made the Union Short to be functional and 
+                durable. Updated with urban cycling features, the Unions rock a second rear pocket with a hideaway 
+                reflective hit that only shows when you’re on the bike, a zip-close rear pocket and full-length gusset. Our 
+                durable 4-way stretch Everest fabric provides hours of comfort in the saddle or sitting on the grass at a show.`,
 			colorOptions: ["Black"],
 			sizeOptions: ["S", "M", "L"],
 		},
@@ -79,7 +92,7 @@ export const Products = {
 	],
 	Accessories: [
 		{
-			id: 1,
+			id: 5,
 			name: "Bike Helmet",
 			manufacturer: "Safety Gear Co.",
 			images: ["helmet1.jpg", "helmet2.jpg"],
@@ -91,7 +104,7 @@ export const Products = {
 			sizeOptions: ["M/L", "XL"],
 		},
 		{
-			id: 2,
+			id: 6,
 			name: "Bike Lock",
 			manufacturer: "Security Co.",
 			images: ["lock1.jpg", "lock2.jpg"],
