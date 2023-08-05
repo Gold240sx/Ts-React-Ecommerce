@@ -11,7 +11,7 @@ const Header = () => {
 				<Link to="/">
 					<img
 						src={BikeShopLogo}
-						className="absolute h-auto hover:scale-105 -mt-5 w-[9rem] p-2 -rotate-3 bg-white rounded-xl  border-2 shadow-black shadow-2xl"
+						className="absolute h-auto scale-75 sm:scale-[85%] sm:hover:scale-90 md:scale-95 md:hover:scale-100 lg:hover:scale-105 -mt-5 w-[9rem] p-2 -rotate-3 bg-white rounded-xl  border-2 shadow-black shadow-2xl"
 					/>
 				</Link>
 			</div>
