@@ -18,8 +18,15 @@
 		"strict": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
-		"noFallthroughCasesInSwitch": true
+		"noFallthroughCasesInSwitch": true,
+		// Paths
+		"types": ["node"],
+		"paths": {
+			"@/ProductImages": ["./src/assets/Images/Products"]
+		}
 	},
 	"include": ["src"],
 	"references": [{ "path": "./tsconfig.node.json" }]
 }
+
+

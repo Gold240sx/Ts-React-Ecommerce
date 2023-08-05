@@ -22,13 +22,6 @@ img {
   margin: 0 auto;
 }
 
-#shop-now {
-  font-weight: 600; 
-  &:hover {
-    background-color: #606060;
-  }
-}
-
 // Featured products section
 .featured-collection {
   margin-top: 6rem;
@@ -117,11 +110,6 @@ img {
         #btn-white-outline {
         border: 1px solid grey;
         margin-bottom: 1rem;
-        }
-        #buy-it-now-btn {
-        &:hover {
-            background-color: #606060;
-        }
         }
 
     }
