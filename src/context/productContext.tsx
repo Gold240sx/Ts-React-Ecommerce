@@ -1,7 +1,7 @@
 import { Products as SHOP_DATA } from "../shop/Products"
 import { createContext, useState, ReactNode } from "react"
 
-type Product = {
+export type Product = {
 	id: number
 	name: string
 	manufacturer: string

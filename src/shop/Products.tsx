@@ -10,6 +10,10 @@ import JerseyQuarter from "../assets/Images/Products/Clothes/jersey-quarter.jpg"
 import ShortsButt from "../assets/Images/Products/Clothes/Shorts-Butt.jpg"
 import ShortsFront from "../assets/Images/Products/Clothes/Shorts-Front.jpg"
 import ShortsFly from "../assets/Images/Products/Clothes/Shorts-Fly.jpg"
+import FullFaceHelmetEuc from "../assets/Images/Products/Clothes/FoxHelmetEuc.jpg"
+import FullFaceHelmetBlocked from "../assets/Images/Products/Clothes/FoxHelmetBlocked.jpg"
+import FullFaceHelmetBlack from "../assets/Images/Products/Clothes/FoxHelmetBlack.jpg"
+import BikePump from "../assets/Images/Products/Accessories/Pump.jpg"
 
 export const Products = {
 	Bikes: [
@@ -93,22 +97,27 @@ export const Products = {
 	Accessories: [
 		{
 			id: 5,
-			name: "Bike Helmet",
-			manufacturer: "Safety Gear Co.",
-			images: ["helmet1.jpg", "helmet2.jpg"],
-			price: 69.99,
+			name: "Proframe Helmet",
+			manufacturer: "Fox Racing",
+			images: [FullFaceHelmetEuc, FullFaceHelmetBlocked, FullFaceHelmetBlack],
+			price: 284.99,
 			category: "Protective Gear",
-			tagline: "A durable helmet for maximum head protection.",
-			description: "A durable helmet designed to provide maximum head protection.",
-			colorOptions: ["White", "Black", "Red"],
-			sizeOptions: ["M/L", "XL"],
+			tagline: "DH Protection without compromise!",
+			description: `As the lightest DH lid ever made by Fox, the Proframe comes with the same full-face, fixed visor protection of a 
+                classic DH bucket—albeit in a more streamlined design that won't leave you with your head hanging after an all-day 
+                ride. Its low weight means that even if you ride more towards the enduro end of the spectrum, you won't sacrifice 
+                time in a race for upgrading to DH-level protection. Fox also punches 24 Big Bore vents into the Proframe's shell, 
+                making sure you don't feel like you're trying to ride in an astronaut helmet when you're grinding it out on a long, 
+                rocky ridge climb before a serpentine descent.`,
+			colorOptions: ["Eucalyptus", "Blocked Black/White", "Black"],
+			sizeOptions: ["L"],
 		},
 		{
 			id: 6,
-			name: "Bike Lock",
-			manufacturer: "Security Co.",
-			images: ["lock1.jpg", "lock2.jpg"],
-			price: 19.99,
+			name: "Chamber Tubeless Floor Pump",
+			manufacturer: "Blackburn.",
+			images: [BikePump],
+			price: 199.95,
 			category: "Protective Gear",
 			tagline: "A sturdy lock to keep your bike safe and secure.",
 			description: "A sturdy lock designed to keep your bike safe from theft.",
