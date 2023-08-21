@@ -124,7 +124,6 @@ function Carrousel({ autoslide, interval = 3000 }: { autoslide: boolean; interva
 					className="p-1 rounded-full shadow h-fit w-fit bg-zinc-200/20 hover:bg-white/10 dark:bg-zinc-800/20 dark:hover:bg-zinc-800/40">
 					<ChevronRight size={40} className="translate-x-0.5 dark:text-zinc-400" />
 				</button>
-				i
 			</div>
 		</div>
 	)
