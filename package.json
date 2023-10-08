@@ -33,7 +33,7 @@
     "i": "^0.3.7",
     "lint-staged": "^13.2.3",
     "npm": "^9.8.1",
-    "postcss": "^8.4.27",
+    "postcss": "^8.4.31",
     "prettier": "^3.0.1",
     "prettier-plugin-tailwindcss": "^0.4.1",
     "sass": "^1.64.2",
